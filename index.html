@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Muhammed Ziyad — Senior Graphic Designer & Art Director specializing in iconic brand systems, luxury packaging, editorial typography, and 3D spatial visual identities.">
+  <meta name="keywords" content="Muhammed Ziyad, Senior Graphic Designer, Art Director, Brand Identity, Packaging Design, Typography, Visual Identity, Creative Director, Editorial Design">
+  <meta name="author" content="Muhammed Ziyad">
+  <meta property="og:title" content="Muhammed Ziyad | Senior Graphic Designer & Art Director">
+  <meta property="og:description" content="Crafting iconic brand identities, luxury packaging, Swiss typography, and immersive visual worlds.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/ziyad-designer-portrait.jpg">
+
+  <title>Muhammed Ziyad | Senior Graphic Designer & Art Director</title>
+
+  <!-- Google Fonts: Editorial & Swiss Grotesque -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@500;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-noir">
+
+  <!-- Top Scroll Progress Indicator with Live Percentage -->
+  <div id="scroll-progress-container" aria-hidden="true">
+    <div id="scroll-progress-bar"></div>
+    <span id="scroll-progress-badge" class="progress-badge">0%</span>
+  </div>
+
+  <!-- Ambient Design Atmosphere Canvas & Background Grid -->
+  <div class="designer-grid-bg" aria-hidden="true"></div>
+  <div class="ambient-glow glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow glow-center" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom" aria-hidden="true"></div>
+  <canvas id="ambient-canvas" aria-hidden="true"></canvas>
+
+  <!-- Navigation Bar -->
+  <header id="navbar" class="navbar">
+    <div class="nav-container">
+      
+      <!-- Brand Monogram & Title -->
+      <a href="#hero" class="nav-brand" aria-label="Muhammed Ziyad Home">
+        <span class="brand-monogram">MZ</span>
+        <span class="brand-text">
+          <span class="brand-name">MUHAMMED ZIYAD</span>
+          <span class="brand-title">Senior Graphic Designer &middot; Art Director</span>
+        </span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#works" class="nav-link">Selected Works</a></li>
+          <li><a href="#philosophy" class="nav-link">Philosophy</a></li>
+          <li><a href="#capabilities" class="nav-link">Capabilities</a></li>
+          <li><a href="#lab" class="nav-link">Design Lab</a></li>
+          <li><a href="#awards" class="nav-link">Accolades</a></li>
+          <li><a href="#contact" class="nav-link">Commission</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions & Palette Switcher -->
+      <div class="nav-actions">
+        
+        <!-- Live Palette Switcher Menu -->
+        <div class="palette-switcher" title="Switch Theme Palette">
+          <span class="palette-label">Theme</span>
+          <div class="palette-dots">
+            <button class="palette-btn active" data-theme="theme-noir" title="Noir Luxury (Default)"></button>
+            <button class="palette-btn" data-theme="theme-swiss" title="Swiss High-Contrast Red"></button>
+            <button class="palette-btn" data-theme="theme-cyber" title="Cyber Cyan & Violet"></button>
+            <button class="palette-btn" data-theme="theme-emerald" title="Botanical Emerald"></button>
+          </div>
+        </div>
+
+        <a href="#contact" class="btn btn-outline btn-sm">Start a Project</a>
+
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div id="mobile-drawer" class="mobile-drawer" aria-hidden="true">
+      <ul class="mobile-nav-list">
+        <li><a href="#works" class="mobile-nav-link">Selected Works</a></li>
+        <li><a href="#philosophy" class="mobile-nav-link">Design Philosophy</a></li>
+        <li><a href="#capabilities" class="mobile-nav-link">Capabilities</a></li>
+        <li><a href="#lab" class="mobile-nav-link">Interactive Lab</a></li>
+        <li><a href="#awards" class="mobile-nav-link">Awards &amp; Recognition</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact &amp; Commission</a></li>
+        <li>
+          <a href="#contact" class="btn btn-primary btn-block mobile-contact-btn">Commission Ziyad</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        
+        <div class="hero-content reveal-fade-up">
+          
+          <!-- Designer Status Pill -->
+          <div class="status-badge">
+            <span class="status-pulse">
+              <span class="status-dot"></span>
+              <span class="status-ring"></span>
+            </span>
+            <span class="status-text">Booking Brand Identities &amp; Creative Direction for 2026/2027</span>
+          </div>
+
+          <!-- Hero Headline with Graphic Designer Emphasis -->
+          <h1 class="hero-headline">
+            Visual Systems with <br>
+            <span class="editorial-italic">Timeless Soul</span> &amp; <br>
+            <span class="gradient-text">Radical Precision.</span>
+          </h1>
+
+          <p class="hero-name-label">
+            I am <strong class="highlight-name">MUHAMMED ZIYAD</strong>, a 
+            <span class="typewriter-wrapper">
+              <span id="typewriter" class="typewriter-text">Senior Graphic Designer</span>
+              <span class="typewriter-cursor">|</span>
+            </span>
+          </p>
+
+          <p class="hero-description">
+            Award-winning Senior Graphic Designer &amp; Art Director specializing in iconic brand identities, 
+            bespoke packaging architecture, avant-garde Swiss typography, and immersive 3D spatial visuals. 
+            I craft visual languages that make ambitious brands impossible to ignore.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#works" class="btn btn-primary">
+              <span>Explore Masterworks</span>
+              <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+            </a>
+            <a href="#lab" class="btn btn-glass">
+              <span>Interactive Design Lab</span>
+            </a>
+            <a href="#resume-modal" id="btn-open-resume" class="btn btn-outline" aria-haspopup="dialog">
+              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+              <span>Design CV</span>
+            </a>
+          </div>
+
+          <!-- CMYK & Print Precision Bar -->
+          <div class="cmyk-strip" aria-label="Print Precision Swatches">
+            <span class="cmyk-label">Design Standards:</span>
+            <div class="cmyk-swatches">
+              <span class="swatch swatch-c" title="Cyan 100%">C:100</span>
+              <span class="swatch swatch-m" title="Magenta 100%">M:100</span>
+              <span class="swatch swatch-y" title="Yellow 100%">Y:100</span>
+              <span class="swatch swatch-k" title="Key 100%">K:100</span>
+            </div>
+            <span class="pantone-code">PANTONE&reg; Black 6 C &middot; 300 DPI</span>
+          </div>
+
+        </div>
+
+        <!-- Hero 3D Card Visual with Designer Portrait -->
+        <div class="hero-visual reveal-scale-up">
+          <div class="hero-card-3d" id="hero-card-3d">
+            <div class="card-glass-frame">
+              
+              <!-- Floating Header Badge -->
+              <div class="badge-uptime">
+                <span class="uptime-dot"></span>
+                <span>Art Director &middot; Red Dot Awardee</span>
+              </div>
+
+              <!-- Portrait Frame -->
+              <div class="avatar-wrapper">
+                <img src="assets/ziyad-designer-portrait.jpg" alt="Muhammed Ziyad - Senior Graphic Designer portrait" class="hero-avatar-img" width="400" height="400" loading="eager">
+                <div class="avatar-gradient-ring"></div>
+                
+                <!-- Overlay Graphic Guide Overlay -->
+                <div class="rule-overlay">
+                  <span class="rule-line top"></span>
+                  <span class="rule-line bottom"></span>
+                  <span class="rule-line left"></span>
+                  <span class="rule-line right"></span>
+                  <span class="rule-cross center"></span>
+                </div>
+              </div>
+
+              <!-- Card Bio -->
+              <div class="card-profile-info">
+                <div class="profile-meta">
+                  <h3 class="profile-name">Muhammed Ziyad</h3>
+                  <p class="profile-role">Senior Graphic Designer &amp; Brand Architect</p>
+                </div>
+                <div class="profile-tags">
+                  <span class="tag">Brand Identity</span>
+                  <span class="tag">Packaging</span>
+                  <span class="tag">Typography</span>
+                  <span class="tag">Cinema 4D</span>
+                  <span class="tag">Creative Direction</span>
+                </div>
+              </div>
+
+              <!-- Floating Interactive Badges with Scroll Parallax -->
+              <div class="floating-badge badge-1" data-parallax="0.09">
+                <div class="floating-icon">✦</div>
+                <div>
+                  <div class="badge-value">120+</div>
+                  <div class="badge-label">Brands Designed</div>
+                </div>
+              </div>
+
+              <div class="floating-badge badge-2" data-parallax="-0.07">
+                <div class="floating-icon">🏆</div>
+                <div>
+                  <div class="badge-value">14 Awards</div>
+                  <div class="badge-label">International Accolades</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- KINETIC SCROLL MARQUEE -->
+    <section class="kinetic-marquee-section" aria-hidden="true">
+      <div class="marquee-track" id="marquee-track">
+        <div class="marquee-content">
+          <span>BRAND IDENTITY</span>
+          <span class="marquee-separator">&bull;</span>
+          <span>BESPOKE PACKAGING</span>
+          <span class="marquee-separator">&bull;</span>
+          <span>SWISS TYPOGRAPHY</span>
+          <span class="marquee-separator">&bull;</span>
+          <span>3D SPATIAL SYSTEMS</span>
+          <span class="marquee-separator">&bull;</span>
+          <span>EDITORIAL DESIGN</span>
+          <span class="marquee-separator">&bull;</span>
+          <span>ART DIRECTION</span>
+          <span class="marquee-separator">&bull;</span>
+          <span>PRINT CRAFT</span>
+          <span class="marquee-separator">&bull;</span>
+        </div>
+        <div class="marquee-content" aria-hidden="true">
+          <span>BRAND IDENTITY</span>
+          <span class="marquee-separator">&bull;</span>
+          <span>BESPOKE PACKAGING</span>
+          <span class="marquee-separator">&bull;</span>
+          <span>SWISS TYPOGRAPHY</span>
+          <span class="marquee-separator">&bull;</span>
+          <span>3D SPATIAL SYSTEMS</span>
+          <span class="marquee-separator">&bull;</span>
+          <span>EDITORIAL DESIGN</span>
+          <span class="marquee-separator">&bull;</span>
+          <span>ART DIRECTION</span>
+          <span class="marquee-separator">&bull;</span>
+          <span>PRINT CRAFT</span>
+          <span class="marquee-separator">&bull;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY STATS COUNTER STRIP -->
+    <section class="stats-strip" id="stats">
+      <div class="container">
+        <div class="stats-grid">
+          
+          <div class="stat-card reveal-fade-up" data-delay="100">
+            <div class="stat-number-wrapper">
+              <span class="stat-number" data-target="8">0</span>
+              <span class="stat-plus">+</span>
+            </div>
+            <div class="stat-title">Years of Design Mastery</div>
+            <p class="stat-desc">Crafting iconic brand systems from concept to global execution</p>
+          </div>
+
+          <div class="stat-card reveal-fade-up" data-delay="200">
+            <div class="stat-number-wrapper">
+              <span class="stat-number" data-target="120">0</span>
+              <span class="stat-plus">+</span>
+            </div>
+            <div class="stat-title">Identity &amp; Packaging Systems</div>
+            <p class="stat-desc">From luxury fragrance lines to cutting-edge 3D tech brands</p>
+          </div>
+
+          <div class="stat-card reveal-fade-up" data-delay="300">
+            <div class="stat-number-wrapper">
+              <span class="stat-number" data-target="14">0</span>
+              <span class="stat-plus">🏆</span>
+            </div>
+            <div class="stat-title">Design Awards Won</div>
+            <p class="stat-desc">Pentawards, Red Dot, Awwwards, and Tokyo TDC recognitions</p>
+          </div>
+
+          <div class="stat-card reveal-fade-up" data-delay="400">
+            <div class="stat-number-wrapper">
+              <span class="stat-number" data-target="100">0</span>
+              <span class="stat-plus">%</span>
+            </div>
+            <div class="stat-title">Bespoke Precision</div>
+            <p class="stat-desc">Zero templates. Custom letterforms, grids, and tailored finishes</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SELECTED MASTERWORKS (PORTFOLIO SHOWCASE) -->
+    <section id="works" class="section works-section">
+      <div class="container">
+        
+        <div class="section-header reveal-fade-up">
+          <div class="section-pill">Curated Portfolio</div>
+          <h2 class="section-title">Selected <span class="gradient-text">Design Masterworks</span></h2>
+          <p class="section-subtitle">A showcase of bespoke visual identities, high-craft packaging, avant-garde editorial books, and 3D kinetic brand campaigns crafted by Muhammed Ziyad.</p>
+        </div>
+
+        <!-- Filter Navigation -->
+        <div class="project-filters reveal-fade-up">
+          <button class="filter-btn active" data-filter="all">All Disciplines</button>
+          <button class="filter-btn" data-filter="packaging">Luxury Packaging</button>
+          <button class="filter-btn" data-filter="editorial">Editorial &amp; Typography</button>
+          <button class="filter-btn" data-filter="spatial">3D &amp; Spatial Systems</button>
+          <button class="filter-btn" data-filter="branding">Brand Identity</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+
+          <!-- Project 1: Luxury Packaging & Identity -->
+          <article class="project-card reveal-fade-up" data-category="packaging branding">
+            <div class="project-media">
+              <img src="assets/project-aura-packaging.jpg" alt="AURA Haute Parfumerie Luxury Packaging" class="project-img" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-links-overlay">
+                  <button class="btn btn-primary btn-sm preview-btn" data-project="aura">Case Study Deep Dive</button>
+                </div>
+              </div>
+              <span class="project-pill-featured">Pentawards Gold 2025</span>
+            </div>
+            <div class="project-info">
+              <div class="project-meta-row">
+                <span class="project-category">Luxury Packaging &middot; Brand Identity</span>
+                <span class="project-metric">Custom Glass &amp; Gold Foil</span>
+              </div>
+              <h3 class="project-title">AURA Haute Parfumerie</h3>
+              <p class="project-description">
+                Comprehensive visual identity and bespoke architectural glass bottle packaging for a Parisian niche perfume house. Featuring tactile black linen rigid boxes, embossed 24k gold foil letterforms, and wax-sealed stationery.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Packaging Architecture</span>
+                <span class="tag">Gold Foil Stamping</span>
+                <span class="tag">Custom Serif</span>
+                <span class="tag">Print Production</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Editorial & Swiss Typography -->
+          <article class="project-card reveal-fade-up" data-category="editorial" data-delay="150">
+            <div class="project-media">
+              <img src="assets/project-archetype-editorial.jpg" alt="ARCHETYPE Modern Architecture Editorial Catalog" class="project-img" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-links-overlay">
+                  <button class="btn btn-primary btn-sm preview-btn" data-project="archetype">Case Study Deep Dive</button>
+                </div>
+              </div>
+              <span class="project-pill-featured">Tokyo TDC Selected</span>
+            </div>
+            <div class="project-info">
+              <div class="project-meta-row">
+                <span class="project-category">Editorial &middot; Swiss Typographic System</span>
+                <span class="project-metric">320-Page Hardcover Monograph</span>
+              </div>
+              <h3 class="project-title">ARCHETYPE: Modernist Monograph</h3>
+              <p class="project-description">
+                Avant-garde brutalist publication and exhibition catalog exploring contemporary concrete architecture. Built on an asymmetrical 12-column Swiss grid with high-contrast monochrome layouts and vivid vermilion red accents.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Swiss Grid System</span>
+                <span class="tag">Editorial Design</span>
+                <span class="tag">Typographic Hierarchy</span>
+                <span class="tag">Poster Series</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: 3D Spatial & Motion Brand System -->
+          <article class="project-card reveal-fade-up" data-category="spatial branding" data-delay="250">
+            <div class="project-media">
+              <img src="assets/project-synapse-3d.jpg" alt="SYNAPSE 3D Spatial Brand Identity Guidelines" class="project-img" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-links-overlay">
+                  <button class="btn btn-primary btn-sm preview-btn" data-project="synapse">Case Study Deep Dive</button>
+                </div>
+              </div>
+              <span class="project-pill-featured">Red Dot Best of the Best</span>
+            </div>
+            <div class="project-info">
+              <div class="project-meta-row">
+                <span class="project-category">3D Art Direction &middot; Spatial Brand System</span>
+                <span class="project-metric">Dynamic Kinetic Identity</span>
+              </div>
+              <h3 class="project-title">SYNAPSE: Intelligent Cloud Brand</h3>
+              <p class="project-description">
+                Holistic brand universe and spatial design system for a next-generation neural cloud intelligence platform. Features procedural iridescent 3D fluid glass ribbons, holographic stationery, and a comprehensive 180-page brand manual.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Cinema 4D</span>
+                <span class="tag">3D Motion Identity</span>
+                <span class="tag">Brand Guidelines</span>
+                <span class="tag">Spatial Visuals</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Artisanal Spirits & Botanical Packaging -->
+          <article class="project-card reveal-fade-up" data-category="packaging" data-delay="300">
+            <div class="project-media">
+              <img src="assets/project-vesper-botanical.jpg" alt="VESPER Botanical Spirits Packaging Craft" class="project-img" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-links-overlay">
+                  <button class="btn btn-primary btn-sm preview-btn" data-project="vesper">Case Study Deep Dive</button>
+                </div>
+              </div>
+              <span class="project-pill-featured">Awwwards Honorable Mention</span>
+            </div>
+            <div class="project-info">
+              <div class="project-meta-row">
+                <span class="project-category">Artisanal Packaging &middot; Illustration</span>
+                <span class="project-metric">Embossed Metallic Copper</span>
+              </div>
+              <h3 class="project-title">VESPER: Botanical Spirit Reserve</h3>
+              <p class="project-description">
+                Limited-edition small-batch spirits packaging incorporating multi-level embossed copper foil botanical engravings on heavy textured cotton stock, deep emerald green custom glass, and wood-turned closure.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Intricate Illustration</span>
+                <span class="tag">Copper Foiling</span>
+                <span class="tag">Textured Paper Stock</span>
+                <span class="tag">Custom Bottle</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INTERACTIVE DESIGN LAB & WORKBENCH -->
+    <section id="lab" class="section lab-section">
+      <div class="container">
+        
+        <div class="section-header reveal-fade-up">
+          <div class="section-pill">Interactive Workbench</div>
+          <h2 class="section-title">The Designer&rsquo;s <span class="gradient-text">Laboratory</span></h2>
+          <p class="section-subtitle">Experience how Muhammed Ziyad calibrates typographic rhythm, chromatic harmony, and geometric grid systems in real time.</p>
+        </div>
+
+        <div class="lab-workbench-grid">
+          
+          <!-- Tool 1: Interactive Typography Tester -->
+          <div class="lab-card reveal-fade-up">
+            <div class="lab-card-header">
+              <span class="lab-tool-badge">Tool 01</span>
+              <h3 class="lab-card-title">Typographic Scale &amp; Tracking Tester</h3>
+            </div>
+            
+            <div class="typo-preview-area">
+              <p id="typo-sample" class="typo-sample-text">
+                MUHAMMED ZIYAD &bull; ART DIRECTION
+              </p>
+            </div>
+
+            <div class="typo-controls">
+              <div class="control-group">
+                <label for="font-size-slider" class="control-label">Type Size: <span id="font-size-val">32px</span></label>
+                <input type="range" id="font-size-slider" min="18" max="64" value="32" class="slider-input">
+              </div>
+              <div class="control-group">
+                <label for="letter-spacing-slider" class="control-label">Tracking / Kerning: <span id="spacing-val">2px</span></label>
+                <input type="range" id="letter-spacing-slider" min="-2" max="15" value="2" class="slider-input">
+              </div>
+              <div class="typo-style-buttons">
+                <button class="style-toggle-btn active" data-font="syne">Syne Grotesque</button>
+                <button class="style-toggle-btn" data-font="cormorant">Editorial Serif</button>
+                <button class="style-toggle-btn" data-font="mono">Monospace Spec</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tool 2: Brand Color Harmony Engine -->
+          <div class="lab-card reveal-fade-up" data-delay="150">
+            <div class="lab-card-header">
+              <span class="lab-tool-badge">Tool 02</span>
+              <h3 class="lab-card-title">Chromatics &amp; Brand Palette Inspector</h3>
+            </div>
+
+            <p class="lab-card-desc">Click any chromatic palette to witness how brand identities shift emotional mood instantaneously:</p>
+
+            <div class="palette-grid">
+              
+              <div class="brand-palette-box active" data-theme-set="theme-noir">
+                <div class="palette-swatch-row">
+                  <span style="background: #07080c;"></span>
+                  <span style="background: #d4af37;"></span>
+                  <span style="background: #f8fafc;"></span>
+                </div>
+                <div class="palette-box-meta">
+                  <span class="palette-name">Noir &amp; Champagne Gold</span>
+                  <span class="palette-vibe">Haute Couture &middot; Luxury Perfume</span>
+                </div>
+              </div>
+
+              <div class="brand-palette-box" data-theme-set="theme-swiss">
+                <div class="palette-swatch-row">
+                  <span style="background: #000000;"></span>
+                  <span style="background: #ff2a2a;"></span>
+                  <span style="background: #ffffff;"></span>
+                </div>
+                <div class="palette-box-meta">
+                  <span class="palette-name">Z&uuml;rich Modernist Vermilion</span>
+                  <span class="palette-vibe">Brutalist Editorial &middot; Architecture</span>
+                </div>
+              </div>
+
+              <div class="brand-palette-box" data-theme-set="theme-cyber">
+                <div class="palette-swatch-row">
+                  <span style="background: #090a14;"></span>
+                  <span style="background: #00f2fe;"></span>
+                  <span style="background: #9d4edd;"></span>
+                </div>
+                <div class="palette-box-meta">
+                  <span class="palette-name">Electric Hologram</span>
+                  <span class="palette-vibe">Spatial Web &middot; Future Intelligence</span>
+                </div>
+              </div>
+
+              <div class="brand-palette-box" data-theme-set="theme-emerald">
+                <div class="palette-swatch-row">
+                  <span style="background: #071912;"></span>
+                  <span style="background: #10b981;"></span>
+                  <span style="background: #d97706;"></span>
+                </div>
+                <div class="palette-box-meta">
+                  <span class="palette-name">Botanical Reserve</span>
+                  <span class="palette-vibe">Artisanal Spirits &middot; Organic Luxury</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PHILOSOPHY & BENTO GRID -->
+    <section id="philosophy" class="section philosophy-section">
+      <div class="container">
+        
+        <div class="section-header reveal-fade-up">
+          <div class="section-pill">The Design Creed</div>
+          <h2 class="section-title">The Creative Discipline of <span class="gradient-text">Muhammed Ziyad</span></h2>
+          <p class="section-subtitle">Bridging classical typographic restraint with futuristic digital craftsmanship.</p>
+        </div>
+
+        <div class="bento-grid">
+
+          <!-- Bento Card 1: Core Story -->
+          <div class="bento-card bento-wide reveal-fade-up">
+            <div class="bento-icon-wrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83M16.62 12l-5.74 9.94"/></svg>
+            </div>
+            <h3 class="bento-title">Form Follows Emotion &amp; Function</h3>
+            <p class="bento-text">
+              Great graphic design is never merely decorative. It is the visual architecture of desire, authority, and memorability. Over the past 8 years, Muhammed Ziyad has collaborated with global founders, luxury ateliers, and tech pioneers to distill brand ethos into iconic marks, bespoke packaging, and tactile print artifacts.
+            </p>
+            <p class="bento-text">
+              From calculating micro-kerning adjustments to specifying paper textures (G.F Smith, Fedrigoni) and overseeing high-precision CMYK foil reproduction, I maintain relentless standards from initial sketch to final physical print.
+            </p>
+            <div class="bento-tags">
+              <span class="pill-tag">Bespoke Monograms</span>
+              <span class="pill-tag">Grid Systems</span>
+              <span class="pill-tag">Tactile Print Finishing</span>
+              <span class="pill-tag">Design Systems</span>
+            </div>
+          </div>
+
+          <!-- Bento Card 2: Design Specs Manifest -->
+          <div class="bento-card bento-tall reveal-fade-up" data-delay="150">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="terminal-title">standards.spec</span>
+            </div>
+            <div class="spec-list">
+              <div class="spec-row">
+                <span class="spec-key">Designer:</span>
+                <span class="spec-val">Muhammed Ziyad</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Grid System:</span>
+                <span class="spec-val">Golden Ratio &bull; 8pt Baseline</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Color Models:</span>
+                <span class="spec-val">CMYK, RGB, Lab, Pantone&reg;</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Print Precision:</span>
+                <span class="spec-val">Bleed 3mm, 2400 DPI Plates</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">3D Engines:</span>
+                <span class="spec-val">Cinema 4D, Redshift, Octane</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Favorite Fonts:</span>
+                <span class="spec-val">Neue Haas Grotesk, Editorial New, Ogg</span>
+              </div>
+            </div>
+            <div class="spec-callout">
+              <span class="spec-quote">&ldquo;Perfection is reached not when there is nothing more to add, but when there is nothing left to take away.&rdquo;</span>
+            </div>
+          </div>
+
+          <!-- Bento Card 3: Physical & Tactile Craft -->
+          <div class="bento-card reveal-fade-up" data-delay="200">
+            <div class="bento-icon-wrapper icon-gold">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3 class="bento-title">Tactile Luxury &amp; Finishing</h3>
+            <p class="bento-text">
+              Mastery over debossing, hot copper stamping, soft-touch coatings, spot UV, die-cuts, and sustainable FSC-certified paper engineering.
+            </p>
+          </div>
+
+          <!-- Bento Card 4: Global Studio Reach -->
+          <div class="bento-card reveal-fade-up" data-delay="250">
+            <div class="bento-icon-wrapper icon-cyan">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h3 class="bento-title">Global Client Presence</h3>
+            <p class="bento-text">
+              Directing visual campaigns for international clients based in Paris, London, Dubai, New York, Zurich, and Singapore.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CAPABILITIES & SOFTWARE ARSENAL -->
+    <section id="capabilities" class="section capabilities-section">
+      <div class="container">
+        
+        <div class="section-header reveal-fade-up">
+          <div class="section-pill">Creative Arsenal</div>
+          <h2 class="section-title">Design Mastery &amp; <span class="gradient-text">Toolkit</span></h2>
+          <p class="section-subtitle">Deep proficiency across industry-standard graphic design software, print manufacturing techniques, and 3D spatial tools.</p>
+        </div>
+
+        <div class="skills-matrix">
+          
+          <!-- Category 1: Brand & Vector Craft -->
+          <div class="skill-category-card reveal-fade-up">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+              </div>
+              <h3>Brand Identity &amp; Vectors</h3>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Adobe Illustrator (Vector Master)</span>
+                  <span class="skill-pct">98%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="98%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Custom Monograms &amp; Logomarks</span>
+                  <span class="skill-pct">96%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="96%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Comprehensive Brand Guidelines</span>
+                  <span class="skill-pct">95%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="95%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Typography &amp; Custom Lettering</span>
+                  <span class="skill-pct">94%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="94%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Packaging & Editorial Print -->
+          <div class="skill-category-card reveal-fade-up" data-delay="100">
+            <div class="category-header">
+              <div class="category-icon icon-gold">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+              </div>
+              <h3>Packaging Architecture &amp; Print</h3>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Adobe InDesign &amp; Pre-Press</span>
+                  <span class="skill-pct">96%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="96%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Bespoke Rigid Box &amp; Bottle Dielines</span>
+                  <span class="skill-pct">93%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="93%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Embossing, Foiling &amp; Finishes</span>
+                  <span class="skill-pct">95%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="95%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Color Separation &amp; Proofing</span>
+                  <span class="skill-pct">97%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="97%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: 3D Art Direction & Digital Media -->
+          <div class="skill-category-card reveal-fade-up" data-delay="200">
+            <div class="category-header">
+              <div class="category-icon icon-purple">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+              </div>
+              <h3>3D Art Direction &amp; Digital</h3>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Cinema 4D / Redshift / Octane</span>
+                  <span class="skill-pct">88%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="88%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Adobe Photoshop (High-End Retouch)</span>
+                  <span class="skill-pct">96%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="96%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Figma &amp; Design Systems</span>
+                  <span class="skill-pct">94%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="94%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">After Effects (Kinetic Motion)</span>
+                  <span class="skill-pct">90%</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- AWARDS & RECOGNITION -->
+    <section id="awards" class="section awards-section">
+      <div class="container">
+        
+        <div class="section-header reveal-fade-up">
+          <div class="section-pill">Peer Recognition</div>
+          <h2 class="section-title">International <span class="gradient-text">Design Honors</span></h2>
+          <p class="section-subtitle">Judged and celebrated by global design panels for typographic excellence, packaging ingenuity, and art direction.</p>
+        </div>
+
+        <div class="awards-table-wrapper reveal-fade-up">
+          <table class="awards-table">
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Accolade</th>
+                <th>Project</th>
+                <th>Category</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="award-year">2025</td>
+                <td class="award-name"><strong>Pentawards International</strong></td>
+                <td>AURA Haute Parfumerie</td>
+                <td>Luxury Fragrance Packaging</td>
+                <td><span class="award-badge gold">Gold Pentaward</span></td>
+              </tr>
+              <tr>
+                <td class="award-year">2024</td>
+                <td class="award-name"><strong>Red Dot Design Award</strong></td>
+                <td>SYNAPSE Brand Universe</td>
+                <td>Brand Identity &amp; Spatial Graphics</td>
+                <td><span class="award-badge red">Best of the Best</span></td>
+              </tr>
+              <tr>
+                <td class="award-year">2024</td>
+                <td class="award-name"><strong>Tokyo Type Directors Club (TDC)</strong></td>
+                <td>ARCHETYPE Monograph</td>
+                <td>Editorial &amp; Book Design</td>
+                <td><span class="award-badge blue">Annual Selection</span></td>
+              </tr>
+              <tr>
+                <td class="award-year">2023</td>
+                <td class="award-name"><strong>Awwwards</strong></td>
+                <td>VESPER Botanical Spirits Showcase</td>
+                <td>Art Direction &amp; Craft</td>
+                <td><span class="award-badge purple">Site of the Day</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CLIENT TESTIMONIALS -->
+    <section class="section testimonials-section">
+      <div class="container">
+        
+        <div class="section-header reveal-fade-up">
+          <div class="section-pill">Testimonials</div>
+          <h2 class="section-title">What Creative Partners Say About <span class="gradient-text">Muhammed Ziyad</span></h2>
+          <p class="section-subtitle">Words from founders, art directors, and brand custodians who trusted Ziyad with their visual identity.</p>
+        </div>
+
+        <div class="testimonials-grid">
+
+          <div class="testimonial-card reveal-fade-up">
+            <div class="quote-icon">&ldquo;</div>
+            <p class="testimonial-body">
+              Muhammed Ziyad doesn&rsquo;t just design a logo; he architects an entire sensory world. The packaging he created for AURA transformed our perfume brand into an immediate collectors&rsquo; item. His understanding of paper textures, foil chemistry, and typographic proportion is second to none.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar-badge">ER</div>
+              <div>
+                <h4 class="author-name">Elise Renaud</h4>
+                <p class="author-title">Founder &amp; Creative Custodian &middot; AURA Paris</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal-fade-up" data-delay="150">
+            <div class="quote-icon">&ldquo;</div>
+            <p class="testimonial-body">
+              Ziyad&rsquo;s work on the ARCHETYPE exhibition monograph stunned our curatorial board. The tension he created between bold brutalist grids and refined Swiss typography made the publication the talk of the design biennial. A true master of the craft.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar-badge author-avatar-red">MV</div>
+              <div>
+                <h4 class="author-name">Marcus Von Berg</h4>
+                <p class="author-title">Director of Exhibitions &middot; Zurich Architecture Forum</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal-fade-up" data-delay="250">
+            <div class="quote-icon">&ldquo;</div>
+            <p class="testimonial-body">
+              In a crowded market of generic corporate identities, Ziyad delivered a kinetic 3D identity for SYNAPSE that blew our investors away. He bridges the gap between classical graphic design pedigree and cutting-edge 3D spatial aesthetics effortlessly.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar-badge author-avatar-purple">KA</div>
+              <div>
+                <h4 class="author-name">Dr. Kiran Anand</h4>
+                <p class="author-title">CEO &middot; Synapse Neural Cloud</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT & PROJECT COMMISSION -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        
+        <div class="section-header reveal-fade-up">
+          <div class="section-pill">Commission &amp; Collaboration</div>
+          <h2 class="section-title">Let&rsquo;s Craft Your Brand&rsquo;s <span class="gradient-text">Next Icon</span></h2>
+          <p class="section-subtitle">Muhammed Ziyad is currently reviewing select visual identity commissions, packaging design projects, and art direction retainers.</p>
+        </div>
+
+        <div class="contact-wrapper">
+
+          <!-- Left Info Cards -->
+          <div class="contact-info-col reveal-fade-up">
+            
+            <div class="contact-glass-card">
+              <h3 class="contact-card-title">Studio Inquiries</h3>
+              <p class="contact-card-desc">
+                For branding commissions, print packaging architecture, or general art direction inquiries, connect directly with Muhammed Ziyad.
+              </p>
+
+              <div class="contact-methods">
+                
+                <div class="contact-item">
+                  <div class="contact-icon icon-gold">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  </div>
+                  <div class="contact-text-group">
+                    <span class="contact-label">Direct Studio Email</span>
+                    <div class="copy-email-wrapper">
+                      <span id="target-email" class="contact-value">ziyad.graphicdesign@gmail.com</span>
+                      <button id="copy-email-btn" class="copy-btn" title="Copy email address" aria-label="Copy email address">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                        <span id="copy-toast" class="copy-toast">Copied!</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon icon-purple">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </div>
+                  <div class="contact-text-group">
+                    <span class="contact-label">Studio Location</span>
+                    <span class="contact-value">Available for Worldwide Remote Commissions &amp; Global Travel</span>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon icon-cyan">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  </div>
+                  <div class="contact-text-group">
+                    <span class="contact-label">Behance &amp; Dribbble</span>
+                    <span class="contact-value">behance.net/muhammedziyad &bull; dribbble.com/ziyad</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="card-status-pill">
+                <span class="pulse-green"></span>
+                <span>Active availability &middot; Taking Q4/2026 &amp; Q1/2027 design commissions</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Interactive Form -->
+          <div class="contact-form-col reveal-fade-up" data-delay="150">
+            <form id="contact-form" class="contact-glass-form" novalidate>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="form-name" class="form-label">Client / Studio Name <span class="required">*</span></label>
+                  <input type="text" id="form-name" name="name" class="form-input" placeholder="e.g. Elena Rostova &middot; L'Artiste Studio" required>
+                  <span class="input-error-msg" id="name-error">Please enter your name or studio</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-email" class="form-label">Email Address <span class="required">*</span></label>
+                  <input type="email" id="form-email" name="email" class="form-input" placeholder="elena@studio.com" required>
+                  <span class="input-error-msg" id="email-error">Please provide a valid email address</span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="form-subject" class="form-label">Project Scope</label>
+                  <select id="form-subject" name="subject" class="form-input form-select">
+                    <option value="brand">Comprehensive Brand Identity &amp; Visual System</option>
+                    <option value="packaging">Luxury Packaging Architecture &amp; Print</option>
+                    <option value="editorial">Editorial Monograph &amp; Swiss Typographic Publication</option>
+                    <option value="3d">3D Spatial Brand Universe &amp; Motion Art Direction</option>
+                    <option value="full">Full-Service Creative Direction Retainer</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-timeline" class="form-label">Estimated Timeline</label>
+                  <select id="form-timeline" name="timeline" class="form-input form-select">
+                    <option value="1month">Immediate (Next 4-6 Weeks)</option>
+                    <option value="quarter">Q4 2026 / Q1 2027</option>
+                    <option value="exploratory">Exploratory / Initial Consultation</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Project Vision &amp; Deliverables <span class="required">*</span></label>
+                <textarea id="form-message" name="message" rows="5" class="form-input form-textarea" placeholder="Tell Muhammed Ziyad about your brand story, aesthetic aspirations, deliverables, and vision..." required></textarea>
+                <span class="input-error-msg" id="message-error">Please share some project details</span>
+              </div>
+
+              <button type="submit" id="submit-btn" class="btn btn-primary btn-block">
+                <span id="submit-text">Send Commission Request to Muhammed Ziyad</span>
+                <svg id="submit-icon" class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                <div id="submit-spinner" class="spinner hidden"></div>
+              </button>
+
+              <div id="form-success-alert" class="form-alert success hidden">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                <span>Thank you! Your commission request has been received. Muhammed Ziyad will reply within 24 hours.</span>
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-monogram">MZ</div>
+          <span class="footer-name">MUHAMMED ZIYAD</span>
+        </div>
+        <p class="footer-tagline">Senior Graphic Designer &amp; Art Director crafting iconic visual identities with radical precision.</p>
+        
+        <div class="footer-links">
+          <a href="#works">Selected Works</a>
+          <a href="#philosophy">Philosophy</a>
+          <a href="#capabilities">Capabilities</a>
+          <a href="#lab">Design Lab</a>
+          <a href="#awards">Awards</a>
+          <a href="#contact">Commission</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 Muhammed Ziyad. All design rights, trademarks, and typography specimens reserved.</p>
+        
+        <div class="footer-controls">
+          <span class="live-clock" id="live-clock">UTC 00:00:00</span>
+          <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll back to top">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- DESIGN CV & RESUME MODAL -->
+  <div id="resume-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3 id="modal-title" class="modal-title">Muhammed Ziyad &mdash; Creative Curriculum Vitae</h3>
+          <span class="modal-sub">Senior Graphic Designer &middot; Art Director</span>
+        </div>
+        <button id="close-modal-btn" class="modal-close-btn" aria-label="Close CV preview">&times;</button>
+      </div>
+
+      <div class="modal-body resume-body">
+        <div class="resume-sheet">
+          <div class="resume-header">
+            <div>
+              <h2 class="resume-name">MUHAMMED ZIYAD</h2>
+              <p class="resume-subtitle">Senior Graphic Designer &amp; Brand Art Director &middot; 8+ Years</p>
+            </div>
+            <div class="resume-contact-block">
+              <p>ziyad.graphicdesign@gmail.com</p>
+              <p>behance.net/muhammedziyad</p>
+              <p>linkedin.com/in/muhammedziyad</p>
+            </div>
+          </div>
+
+          <hr class="resume-divider">
+
+          <div class="resume-section">
+            <h4 class="resume-sec-title">CREATIVE PROFILE</h4>
+            <p>
+              Distinguished Senior Graphic Designer and Art Director with 8+ years of expertise crafting brand identities, luxury packaging architecture, Swiss editorial publications, and spatial 3D branding. Recognized with Pentawards Gold, Red Dot Best of the Best, and Tokyo TDC honors.
+            </p>
+          </div>
+
+          <div class="resume-section">
+            <h4 class="resume-sec-title">SIGNATURE SPECIALIZATIONS</h4>
+            <p><strong>Brand Systems:</strong> Visual Identity Guidelines, Custom Monograms, Logotypes, Dynamic Generative Branding</p>
+            <p><strong>Packaging &amp; Print:</strong> Rigid Box Construction, Glass Finishing, Foil Stamping, Embossing, Dielines, CMYK Separation</p>
+            <p><strong>Editorial &amp; Typography:</strong> Asymmetrical Swiss Grids, Art Direction, Book Binding, Font Pairing, Catalog Direction</p>
+            <p><strong>Digital &amp; 3D:</strong> Cinema 4D, Redshift, Spline 3D, Figma Design Systems, Motion Graphics in After Effects</p>
+          </div>
+
+          <div class="resume-section">
+            <h4 class="resume-sec-title">MAJOR ACCOLADES &amp; ROLES</h4>
+            <p>&bull; <strong>Lead Brand Designer</strong> &mdash; Studio Atelier Paris &amp; London (2022 &ndash; Present)</p>
+            <p>&bull; <strong>Senior Visual Identity Designer</strong> &mdash; Vanguard Creative Agency (2019 &ndash; 2022)</p>
+            <p>&bull; <strong>Pentawards Gold Winner 2025</strong> for AURA Haute Parfumerie packaging</p>
+            <p>&bull; <strong>Red Dot Best of the Best 2024</strong> for SYNAPSE 3D Spatial Brand Identity</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button id="download-resume-btn" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span>Download Design Portfolio PDF</span>
+        </button>
+        <button id="dismiss-modal-btn" class="btn btn-outline">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECT CASE STUDY MODAL -->
+  <div id="project-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-labelledby="project-modal-title">
+    <div class="modal-dialog modal-dialog-lg">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h3 id="project-modal-title" class="modal-title">Case Study</h3>
+          <span id="project-modal-category" class="modal-sub">Art Direction &amp; Craft Details</span>
+        </div>
+        <button id="close-project-modal-btn" class="modal-close-btn" aria-label="Close project modal">&times;</button>
+      </div>
+      <div class="modal-body" id="project-modal-content">
+        <!-- Injected dynamically via script.js -->
+      </div>
+      <div class="modal-footer">
+        <a id="project-modal-inquire-link" href="#contact" class="btn btn-primary">Inquire Similar Project</a>
+        <button id="dismiss-project-modal-btn" class="btn btn-outline">Close Case Study</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
